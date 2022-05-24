@@ -1,21 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;800&display=swap" rel="stylesheet"> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Recipes</title>
 </head>
 <body>
     <header>
     <h1>Odin Recipes</h1>
-    <nav class="recipe-nav">
-        <ul>
-            <li><a href="./recipes/lasagna.html">Lasagna!</a></li> <!-- This is a src for future styling  https://www.allrecipes.com/recipe/267291/chicken-taco-lasagna/ --> 
-            <li><a href="./recipes/pita-bread.html">Pita bread!</a></li> <!-- This is a src for future styling  https://www.allrecipes.com/recipe/228430/traditional-pita-breads/-->  
-            <li><a href="./recipes/bbq.html">Korean BBQ Short Ribs!</a></li> <!-- This is a src for future styling  https://www.allrecipes.com/recipe/141716/korean-bbq-short-ribs-gal-bi/-->  
-        </ul>
-    </nav>
+    <p>Welcome! Please explore our varaity of dishes!</p>
     </header>
+    <main>
+    <div class="dishes">
+        <div class="grid">
+       <section class=""><a href="./recipes/lasagna.html"><h2>Chicken Taco Lasagna!</h2><img src="./recipe-images/lasagna.webp"></a></section>
+       <section class="dish-grid"><a href="./recipes/pita-bread.html"><h2>Pita bread!</h2><img src="./recipe-images/pita.webp"></a></section>
+       <section class="dish-grid"><a href="./recipes/bbq.html"><h2>Corean BBQ!</h2><img src="./recipe-images/bbq.webp"></a></section>
+        </div>
+    </div>
+</main> 
+<footer>
+    <div class="foot">
+        <h2>Thank you for Browsing!</h2>
+        <p>We hoping to see you soon!</p>
+    </div>
+</footer>
 </body>
 </html>
